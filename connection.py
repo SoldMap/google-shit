@@ -9,6 +9,6 @@ import pygsheets
 def initialize_connection():
     connect = pygsheets.authorize(service_file="/home/misha/Playground/Python/google-shit/service_account_credentials.json")
 
-    spsh = connect.open_by_url("https://docs.google.com/spreadsheets/d/1SIAU6asaP3PckTj2dqkjJjDBp3tNbVHWJ6nBjhViZHs/edit#gid=0")
+    spsh = connect.open_by_url("https://docs.google.com/spreadsheets/d/iii111/edit#gid=0")
         
     return spsh[0]
